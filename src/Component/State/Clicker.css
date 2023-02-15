@@ -1,0 +1,9 @@
+.clicker{
+    margin: 20px;
+    text-align: center;
+    border: 1px solid;
+    height: fit-content;
+}
+.clicker p{
+    margin-bottom: 0px;
+}

@@ -1,23 +1,36 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+//
+import { Routes, Route } from "react-router-dom"
+import HomePage from './Page/HomePage'
+import BasicFormPage from './Page/BasicFormPage'
+import StatePage from './Page/StatePage'
+import JsxBasicPage from './Page/JsxBasicPage'
+import Functions from './Page/Functions'
+import TestPage from './Page/TestPage'
+// do not forget how routs are made
+//$ npm i react-router-dom 
+//see package.json
+// don't forget to import and use {Link} instead of <a>
+//
 
-function App() {
+import Nav from './Component/NAV/Nav'
+import Footer from './Component/Footer'
+
+//function App(){}
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/basicForm' element={<BasicFormPage />} />
+          <Route path='/useState' element={<StatePage />} />
+          <Route path='/JsxBasicPage' element={<JsxBasicPage/>} />
+          <Route path='/testing' element={<TestPage/>} />
+          <Route path='/functions' element={<Functions/>} />
+        </Routes>
+      <Footer/>
     </div>
   );
 }

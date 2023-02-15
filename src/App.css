@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.App{
+    /* min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto; */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgba(0, 217, 255, 0.116);
+}
+.HomePage, .jsxBasicPage, .formsPage, .BasicStatePage, .TestPage, .Functions{
+    flex: 1;
+    padding: 30px;
+}
+.HomePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.HomePage svg{
+    width: 100vh; 
+}
+.title-control{
+    display: flex;
+}
+.HomePage h1{
+    text-align: center;
+    margin: 0px;
+    color: #61DAFB;
+    text-transform: uppercase;
+}
+.HomePage img{
+    width: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.BasicStatePage{
+    display: flex;
+    flex-wrap: wrap;
+}
+.formsPage{
+    display:flex;
+    flex-wrap: wrap;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+    background-color: lightgray;
+    box-shadow: 0px -5px 5px 0px gray;
+    text-align: center;
 }

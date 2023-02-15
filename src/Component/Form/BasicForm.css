@@ -1,0 +1,27 @@
+.basicForm{
+    margin-top:0px;
+    padding: 20px;
+    background-color: #2b2b2b2b;
+    width: 200px; 
+    height: fit-content;
+    margin:20px;
+    border: 1px solid;
+  }
+.title{
+    text-align: center;
+    margin: 0px;
+}
+input{
+    margin-top: 10px;
+}
+.success{
+    background-color: lightskyblue;
+    text-align: center;
+
+}
+span{
+    color:red;
+}
+button{
+    margin: 10px 0px 0px;
+}

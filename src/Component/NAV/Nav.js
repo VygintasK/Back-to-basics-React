@@ -6,7 +6,7 @@ import './Nav.css'
 const Nav = () => {
   return (
     <div className='nav'>
-      <Link to='/'>Home</Link>
+      <Link to='/Back-to-basics-React/'>Home</Link>
       <Link to='/jsxBasicPage'>JSX</Link>
       <Link to='/stylesPage'>Style</Link>
       <Link to='/useState'>State</Link>

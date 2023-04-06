@@ -24,7 +24,7 @@ const App = () => {
     <div className="App">
       <Nav />
         <Routes>
-          <Route path='/' element={<HomePage />} />
+          <Route path='/Back-to-basics-React/' element={<HomePage />} />
           <Route path='/basicForm' element={<BasicFormPage />} />
           <Route path='/stylesPage' element={<StylesPage />} />
           <Route path='/useState' element={<StatePage />} />

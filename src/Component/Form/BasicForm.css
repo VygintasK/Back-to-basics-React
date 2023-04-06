@@ -19,7 +19,7 @@ input{
     text-align: center;
 
 }
-span{
+.basicForm span{
     color:red;
 }
 button{

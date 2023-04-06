@@ -8,6 +8,7 @@ const Nav = () => {
     <div className='nav'>
       <Link to='/'>Home</Link>
       <Link to='/jsxBasicPage'>JSX</Link>
+      <Link to='/stylesPage'>Style</Link>
       <Link to='/useState'>State</Link>
       <Link to='/basicForm'>From</Link>  
       <Link to='/functions'>Func</Link>  

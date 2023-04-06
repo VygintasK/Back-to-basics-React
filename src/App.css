@@ -7,7 +7,7 @@
     flex-direction: column;
     background-color: rgba(0, 217, 255, 0.116);
 }
-.HomePage, .jsxBasicPage, .formsPage, .BasicStatePage, .TestPage, .Functions{
+.HomePage, .jsxBasicPage, .formsPage, .BasicStatePage, .TestPage, .Functions, .style-page{
     flex: 1;
     padding: 30px;
 }

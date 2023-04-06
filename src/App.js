@@ -4,6 +4,7 @@ import './App.css';
 import { Routes, Route } from "react-router-dom"
 import HomePage from './Page/HomePage'
 import BasicFormPage from './Page/BasicFormPage'
+import StylesPage from './Page/StylesPage';
 import StatePage from './Page/StatePage'
 import JsxBasicPage from './Page/JsxBasicPage'
 import Functions from './Page/Functions'
@@ -25,6 +26,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/basicForm' element={<BasicFormPage />} />
+          <Route path='/stylesPage' element={<StylesPage />} />
           <Route path='/useState' element={<StatePage />} />
           <Route path='/JsxBasicPage' element={<JsxBasicPage/>} />
           <Route path='/testing' element={<TestPage/>} />

@@ -12,7 +12,7 @@ const Home = () => {
         <h1>Learning React</h1>
       </div>
       <Logo></Logo>
-      
+      <a href='https://youtu.be/RVFAyFWO4go?t=2274' target="_blank" rel="noopener noreferrer">Main video source of info</a>
     </div>
   )
 }

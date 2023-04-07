@@ -14,7 +14,7 @@ const Home = () => {
       <Logo></Logo>
 
       <a
-        href="https://youtu.be/RVFAyFWO4go?t=2274"
+        href="https://youtu.be/RVFAyFWO4go?t=2592"
         target="_blank"
         rel="noopener noreferrer"
       >

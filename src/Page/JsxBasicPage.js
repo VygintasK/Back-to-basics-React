@@ -5,14 +5,13 @@ import JSXRenders from '../Component/JSX/JSXRenders.js'
 import JSXStyleAndFunc from '../Component/JSX/JSXStyleAndFunc'
 
 const JsxBasicPage = () => {
-
   return (
     <div className='jsxBasicPage'>
         <JSXRenders/>
         <JSXStyleAndFunc/>
 
         <BasicButton/>
-        <br/>  
+        <br/>
     </div>
   )
 }

@@ -4,7 +4,12 @@ import React from "react";
 import { ReactComponent as Logo } from "../logo.svg";
 import logo192 from "../img/logo192.png";
 
+
+
 const Home = () => {
+  console.clear()
+  
+
   return (
     <div className="HomePage">
       <div className="title-control">

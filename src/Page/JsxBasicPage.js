@@ -4,7 +4,9 @@ import BasicButton from "../Component/JSX/BasicButton";
 import JSXRenders from "../Component/JSX/JSXRenders.js";
 import JSXStyleAndFunc from "../Component/JSX/JSXStyleAndFunc";
 
+
 const JsxBasicPage = () => {
+  console.clear()
   return (
     <div className="jsxBasicPage">
       <JSXRenders />

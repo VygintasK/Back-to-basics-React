@@ -7,7 +7,7 @@ import BasicFormPage from "./Page/BasicFormPage";
 import StylesPage from "./Page/StylesPage";
 import StatePage from "./Page/StatePage";
 import JsxBasicPage from "./Page/JsxBasicPage";
-import Functions from "./Page/Functions";
+import Functions from "./Page/FunctionsPage";
 import TestPage from "./Page/TestPage";
 //  do not forget how routs are made
 //  $ npm i react-router-dom
